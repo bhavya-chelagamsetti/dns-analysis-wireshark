@@ -26,8 +26,7 @@ This beginner-friendly project demonstrates how to capture and analyze DNS traff
 ### 1. Start Capture Filter
 Shows the Wireshark interface with `udp.port == 53` filter applied to capture only DNS traffic.
 
-![Start Capture Filter](screenshots/start_ca<img width="774" alt="start_capture_filter" src="https://github.com/user-attachments/assets/339e4d90-9697-4fcd-9c0c-b70e8843a02a" />
-pture_filter.png)
+![Start Capture Filter](screenshots/start_capture_filter.png)<img width="774" alt="start_capture_filter" src="https://github.com/user-attachments/assets/339e4d90-9697-4fcd-9c0c-b70e8843a02a" />
 
 ---
 
