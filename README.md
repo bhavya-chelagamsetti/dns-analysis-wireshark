@@ -33,24 +33,21 @@ Shows the Wireshark interface with `udp.port == 53` filter applied to capture on
 ### 2. DNS Query for reddit.com
 Captured a standard DNS query for the domain `www.reddit.com`.
 
-![DNS Query](screenshots/dns_query_redd<img width="946" alt="dns_query_reddit" src="https://github.com/user-attachments/assets/258de999-a004-43f0-8ad7-34be1b01979b" />
-it.png)
+![DNS Query](screenshots/dns_query_reddit.png)<img width="946" alt="dns_query_reddit" src="https://github.com/user-attachments/assets/258de999-a004-43f0-8ad7-34be1b01979b" />
 
 ---
 
 ### 3. DNS Response with CNAME
 The response includes a CNAME record, redirecting the query to `www.redditstatic.com` and then to a CDN domain.
 
-![DNS Response with CNAME](screensh<img width="739" alt="dns_response_with_cname_redditstatic" src="https://github.com/user-attachments/assets/7b9746d3-c0a0-4ab2-b342-d7f16397bd8c" />
-ots/dns_response_with_cname_redditstatic.png)
+![DNS Response with CNAME](screenshots/dns_response_with_cname_redditstatic.png)<img width="739" alt="dns_response_with_cname_redditstatic" src="https://github.com/user-attachments/assets/7b9746d3-c0a0-4ab2-b342-d7f16397bd8c" />
 
 ---
 
 ### 4. DNS Response with Final IP
 Final resolved A record showing the IP address `151.101.xx.140`, revealing CDN involvement (Fastly).
 
-![DNS Response with IP](screensho<img width="739" alt="dns_response_with_ip" src="https://github.com/user-attachments/assets/62a704c3-4ba3-4804-bdfd-d55fa21fa9f4" />
-ts/dns_response_with_ip.png)
+![DNS Response with IP](screenshots/dns_response_with_ip.png)<img width="739" alt="dns_response_with_ip" src="https://github.com/user-attachments/assets/62a704c3-4ba3-4804-bdfd-d55fa21fa9f4" />
 
 ---
 
