@@ -26,7 +26,8 @@ This beginner-friendly project demonstrates how to capture and analyze DNS traff
 ### 1. Start Capture Filter
 Shows the Wireshark interface with `udp.port == 53` filter applied to capture only DNS traffic.
 
-![Start Capture Filter](screenshots/start_capture_filter.png)<img width="774" alt="start_capture_filter" src="https://github.com/user-attachments/assets/339e4d90-9697-4fcd-9c0c-b70e8843a02a" />
+<img width="774" alt="start_capture_filter" src="https://github.com/user-attachments/assets/7e7c7dbe-3a2f-4bd4-9bce-2a0b1ee10e79" />
+
 
 ---
 
@@ -41,14 +42,16 @@ Captured a standard DNS query for the domain `www.reddit.com`.
 ### 3. DNS Response with CNAME
 The response includes a CNAME record, redirecting the query to `www.redditstatic.com` and then to a CDN domain.
 
-![DNS Response with CNAME](screenshots/dns_response_with_cname_redditstatic.png)<img width="739" alt="dns_response_with_cname_redditstatic" src="https://github.com/user-attachments/assets/7b9746d3-c0a0-4ab2-b342-d7f16397bd8c" />
+<img width="739" alt="dns_response_with_cname_redditstatic" src="https://github.com/user-attachments/assets/44543ded-0bf3-4105-ab89-8202f142bb73" />
+
 
 ---
 
 ### 4. DNS Response with Final IP
 Final resolved A record showing the IP address `151.101.xx.140`, revealing CDN involvement (Fastly).
 
-![DNS Response with IP](screenshots/dns_response_with_ip.png)<img width="739" alt="dns_response_with_ip" src="https://github.com/user-attachments/assets/62a704c3-4ba3-4804-bdfd-d55fa21fa9f4" />
+<img width="739" alt="dns_response_with_ip" src="https://github.com/user-attachments/assets/2acc7464-09eb-4367-b936-1593a9cbdcaa" />
+
 
 ---
 
