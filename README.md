@@ -33,7 +33,8 @@ Shows the Wireshark interface with `udp.port == 53` filter applied to capture on
 ### 2. DNS Query for reddit.com
 Captured a standard DNS query for the domain `www.reddit.com`.
 
-![DNS Query](screenshots/dns_query_reddit.png)<img width="946" alt="dns_query_reddit" src="https://github.com/user-attachments/assets/258de999-a004-43f0-8ad7-34be1b01979b" />
+![dns_query_reddit](https://github.com/user-attachments/assets/d4af6a5c-6856-48c5-8ea4-42d036b1ad81)
+
 
 ---
 
